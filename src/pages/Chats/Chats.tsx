@@ -9,10 +9,9 @@ export const Chats = () => {
     <div>
       <p>Список чатов и тд</p>
       <p>
-        {WebApp.initDataUnsafe?.user?.first_name},
-        {WebApp.initDataUnsafe?.user?.last_name},
-        {WebApp.initDataUnsafe?.user?.username},
-        {WebApp.initDataUnsafe?.user?.photo_url}
+        {WebApp.initData}
+        _______
+        {WebApp.initDataUnsafe}
       </p>
 
       <p>{WebApp?.initData}</p>
